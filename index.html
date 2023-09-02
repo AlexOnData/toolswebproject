@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Includem Bootstrap CSS pentru stilizare -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">
+                                Vizualizare
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="editare.html">
+                                Editare
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="user_management.html">
+                                User Management
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- CHENARUL PRINCIPAL pentru afisarea datelor specifice -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div id="vizualizare" class="my-4 center-content">
+                    <h2>Vizualizare</h2>
+                </div>
+                <div id="search-bar">
+                    <h3>Cauta un Tool</h3>
+                    <input type="text" id="search" placeholder="Cauta Tool">
+                    <div id="ToolID"></div>
+                    <div id="Tool Name"></div>
+                    <div id="Parameter Name"></div>
+                    <div id="Parameter Value"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Includem Bootstrap JS pentru funcționalitatea dropdown-urilor și altele -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

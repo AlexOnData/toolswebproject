@@ -1,0 +1,66 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css');
+
+/* Stilizare CHENAR PRINICIPAL */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 10vh;
+}
+
+/*Stilizare SEARCH-BAR */
+.search-bar {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Stilizare SIDEBAR */
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 10px; 
+  margin-bottom: 10px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e3e3e3;
+}
+
+/* Stilizare FORM INTRODUCERE TOOL-URI*/
+.tool-form {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+.tool-form-container-adding,
+.tool-form-container-deleting {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#input-number-tool,
+#input-name-tool,
+#input-name-parameter,
+#input-number-parameter,
+button[type="submit"] {
+  display: block;
+  margin-top: 10px;
+}
