@@ -3,6 +3,17 @@
 A simple web-based interface for managing tools within a warehouse or company.  
 This project provides a front-end dashboard and a Node.js backend script to connect to a SQL Server database, allowing basic tool administration.
 
+> ⚠️ **Project Status**  
+> This project is **not yet complete**. It is an early version meant to showcase the basic structure and database connectivity.
+
+## 🚧 Planned Improvements
+- Add full CRUD functionality (Create, Read, Update, Delete) for tools.
+- Build a complete **Editare** page to edit and remove tools.
+- Implement a dynamic search/filter feature connected to the database.
+- Integrate proper user authentication and role-based access control.
+- Move database credentials to environment variables for secure configuration.
+- Improve overall UI/UX with responsive design and enhanced styling.
+
 ## 📂 Project Structure
 
 node_modules/ # Dependencies
