@@ -55,10 +55,10 @@ Edit the database connection settings in **tool_management.js**:
   };
   ```
 ⚠️ **Important**:
-Replace the default credentials in the code with environment variables or a .env file for security (never commit real passwords).
+Replace the default credentials in the code with environment variables or a **.env** file for security (never commit real passwords).
 
 ### Run
-Execute the Node.js script to test database operations:
+Execute the **Node.js** script to test database operations:
   ```
   node tool_management.js
   ```
