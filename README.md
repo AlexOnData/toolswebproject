@@ -1,6 +1,6 @@
 # Tool Management Web Interface
 
-A simple web-based interface for managing tools within a warehouse or company.  
+A web-based interface for managing tools within a warehouse or company.  
 This project provides a front-end dashboard and a Node.js backend script to connect to a SQL Server database, allowing basic tool administration.
 
 > ⚠️ **Project Status**  
