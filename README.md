@@ -37,7 +37,7 @@ package-lock.json # Dependency lock file
 
 ## 🚀 Getting Started
 
-### - Prerequisites
+### Prerequisites
 - [Node.js](https://nodejs.org/) installed
 - Microsoft SQL Server with a database named `ToolManagementDB` and a `Tools` table.
 
